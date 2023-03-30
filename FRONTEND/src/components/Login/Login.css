@@ -1,0 +1,101 @@
+:root{
+    --navy: #110f1f;
+    --lightblue:#45eaff;
+    --greylight:#39404b;
+    --greydark:#292d33;
+    --greydarker:#1d1e22;
+    --creamson:#ff0d67;
+    --whitish:#d4d4d4;
+  }
+
+section{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  width: 100vw;
+}
+
+.container{
+width: 100%;
+margin: 10px auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+.imageContainer{
+  
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    
+}
+
+.imageContainer img{
+    width: 100%;
+
+}
+
+.container h1{
+    padding: 20px 0;
+    color: var(--lightblue);
+}
+
+.container .formContainer{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 70vw;
+    border-radius: 15px;
+}
+
+.formContainer form{
+    display: flex;
+height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer form input{
+    margin: 10px 0;
+    padding: 5px 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom:  2px solid var(--lightblue);
+    outline: none;
+}
+
+.formContainer form button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: #110f1f;
+    border: none;
+    color: var(--lightblue);
+    border-radius: 5px;
+}
+.formContainer form button:hover {
+    background-color: #45eaff;
+    color: #110f1f;
+}
+
+form .register{
+    margin-top: 10px;
+    color: #110f1f;
+}
+
+.register span{
+    color: #45eaff;
+    text-decoration: none;
+    
+}
+
+.login_p{
+    color: var(--lightblue);
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-align: center;
+}
+
